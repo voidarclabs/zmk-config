@@ -5,14 +5,14 @@ layers:
     '$$mdi:keyboard-space$$', raise, '$$mdi:apple-keyboard-option$$']
   lower:
   - $$mdi:keyboard-esc$$
-  - Tab Left
+  - ''
   - '7'
   - '8'
   - '9'
-  - Tab Right
+  - ''
   - ⌘⇧J
-  - ''
-  - ''
+  - Tab Left
+  - Tab Right
   - ''
   - ''
   - $$mdi:backspace-reverse-outline$$
