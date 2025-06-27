@@ -85,7 +85,7 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-command$$
   - lower
-  - Ctl+$$mdi:keyboard-space$$
+  - ⌃⎵
   - $$mdi:keyboard-space$$
   - {t: raise, type: held}
   - $$mdi:apple-keyboard-option$$
