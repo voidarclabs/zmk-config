@@ -28,8 +28,15 @@ generated using
 
 ![keymaps](https://github.com/DarrenVictoriano/zmk-config/blob/master/images/corne.svg)
 
-> ⚡️ -> hyper key (`ctrl` + `shift` + `alt` + `cmd`)
->
+**Macros**
+
+- ⚡️ : hyper key (`ctrl` + `shift` + `alt` + `cmd`)
+- ⚙️ : system settings (`cmd` + `shift` + `J`)
+- 📷 : `printscreen` (linux) / `F13` (macos)
+- 🖥️ : TTY for linux (`ctrl` + `cmd` + `F2`)
+- `⌘⌥⎵` : homerow / hints
+- `⌃⎵` : tmux leader key
+
 > The image is generated using
 > [Cem Aksoylar's Keymap-drawer](https://github.com/caksoylar/keymap-drawer)
 
