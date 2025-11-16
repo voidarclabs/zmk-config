@@ -141,13 +141,15 @@ parse_config:
         "&inv_qm": ¿
         "&kp LC(LG(LEFT))": Desk Left
         "&kp LC(LG(RIGHT))": Desk Right
-        "&kp LC(TAB)": Tab Right
-        "&kp LC(LS(TAB))": Tab Left
+        "&kp LC(TAB)": $$mdi:chevron-right-box$$
+        "&kp LC(LS(TAB))": $$mdi:chevron-left-box$$
         "&kp LA(F4)": Win Close
         "&kp LC(F4)": Tab Close
         "&kp LS(TAB)": Win Prev
         "&kp LS(INS)": Paste
         "&kp LG(L)": Lock
+        "&kp PAGE_UP": $$mdi:chevron-up-box$$
+        "&kp PAGE_DOWN": $$mdi:chevron-down-box$$
         "&out OUT_USB": Out USB
         "&out OUT_BLE": Out BLE
         "&bt BT_SEL 0": BT 1
@@ -155,6 +157,11 @@ parse_config:
         "&bt BT_SEL 2": BT 3
         "&bt BT_SEL 3": BT 4
         "&bt BT_SEL 4": BT 5
+        "&kp PRINTSCREEN": $$mdi:panorama-variant-outline$$
+        "&msc SCRL_LEFT": $$mdi:pan-left$$
+        "&msc SCRL_RIGHT": $$mdi:pan-right$$
+        "&msc SCRL_DOWN": $$mdi:pan-down$$
+        "&msc SCRL_UP": $$mdi:pan-up$$
         DISPLAY_UP:
             t: $$mdi:television-classic$$
             h: $$mdi:arrow-up$$
@@ -439,6 +446,7 @@ parse_config:
         RGUI: $$mdi:apple-keyboard-command$$
 
         # combo
+        LC(LS(LA(LGUI))): $$mdi:lightning-bolt$$
         LS(LC(LALT)): $$mdi:triangle$$ # Meh
         LC(SPACE): "⌃⎵"
         RC(RS(TAB)): "⌃⇧⇥"
@@ -452,6 +460,12 @@ parse_config:
 
         LOWER: "⤓"
         RAISE: "⤒"
+
+        # Scroll
+        SCRL_LEFT: $$mdi:pan-left$$
+        SCRL_RIGHT: $$mdi:pan-right$$
+        SCRL_DOWN: $$mdi:pan-down$$
+        SCRL_UP: $$mdi:pan-up$$
 
         # Arrows
         UP: $$mdi:arrow-up-bold$$
@@ -476,8 +490,12 @@ parse_config:
         PAUSE_BREAK: Pause Break
 
         # Media
+        C_RW: $$mdi:rewind$$
+        C_FF: $$mdi:fast-forward$$
         C_NEXT: $$mdi:skip-next$$
         C_PREV: $$mdi:skip-previous$$
+        C_PAUSE: $$mdi:pause$$
+        C_PLAY: $$mdi:play$$
         C_PP: $$mdi:play-pause$$
 
         # Sound
