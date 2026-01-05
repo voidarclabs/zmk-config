@@ -9,7 +9,7 @@
             bindings = <
 &kp TAB               &kp Q  &kp W  &kp E     &kp R      &kp T          &kp Y                 &kp U          &kp I      &kp O    &kp P          &kp LEFT_ALT
 &kp ESC               &kp A  &kp S  &kp D     &kp F      &kp G          &kp H                 &kp J          &kp K      &kp L    &kp SEMICOLON  &kp NON_US_HASH
-&kp NON_US_BACKSLASH  &kp Z  &kp X  &kp C     &kp V      &kp B          &kp N                 &kp M          &kp COMMA  &kp DOT  &kp FSLH       &kp KP_MINUS
+&kp NON_US_BACKSLASH  &kp Z  &kp X  &kp C     &kp V      &kp B          &kp N                 &kp M          &kp COMMA  &kp DOT  &kp FSLH       &kp MINUS
                                     &kp LGUI  &kp LCTRL  &lt 1 SPACE    &mt LEFT_SHIFT ENTER  &kp BACKSPACE  &kp LGUI
             >;
         };
