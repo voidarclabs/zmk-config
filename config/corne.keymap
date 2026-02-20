@@ -26,7 +26,7 @@
         symbol {
             bindings = <
 &kp GRAVE             &kp EXCLAMATION  &kp AT             &kp LS(NUMBER_3)  &kp DOLLAR       &kp PERCENT    &kp CARET     &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
-&kp LS(BACKSLASH)     &trans           &kp DOUBLE_QUOTES  &kp LBKT          &kp RBKT         &trans         &kp LC(LEFT)  &kp LC(DOWN)   &kp LC(UP)    &kp LC(RIGHT)         &kp APOSTROPHE         &trans
+&kp PIPE2             &trans           &kp DOUBLE_QUOTES  &kp LBKT          &kp RBKT         &trans         &kp LC(LEFT)  &kp LC(DOWN)   &kp LC(UP)    &kp LC(RIGHT)         &kp APOSTROPHE         &trans
 &kp NON_US_BACKSLASH  &trans           &trans             &kp LEFT_BRACE    &kp RIGHT_BRACE  &trans         &trans        &trans         &trans        &trans                &trans                 &trans
                                                           &trans            &trans           &trans         &trans        &trans         &trans
             >;
